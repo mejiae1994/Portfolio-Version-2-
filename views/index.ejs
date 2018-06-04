@@ -1,0 +1,170 @@
+<% include partials/header.ejs %>
+<div id="navbar" class="ui fixed inverted menu">
+  <div class="ui container">
+    <div class="header item"> <i id="adressIcon" class="address card outline icon"></i> PORTFOLIO</div>
+    <a href="/" class="item"> HOME</a>
+    <a id="contactMe" class="item "> CONTACT</a>
+
+  </div>
+</div>
+
+<!-- contact Modal -->
+<div class="ui modal">
+  <div id="contactP" class="content">
+
+      <p>Feel free to contact me, about anything, at mejiae1994@gmail.com. I will try to respond as soon as possible.
+      Let me know about any feedback you have in regards to any of my projects. I will take them into considerations and try to implement
+      them. </p>
+
+  </div>
+</div>
+
+<!-- Showcase -->
+<div class="ui main container ">
+  <div class="ui stackable centered two column grid container">
+      <div class="eight column">
+          <div class="ui rounded image">
+            <img id="meImg" src="me.jpeg" width="80%" height="80%">
+          </div>
+      </div>
+      <div class="eight column">
+        <h2>Background</h2>
+        <p> My name is Edison Mejia. I am a recent Computer Science Graduate from
+          Lehman College. I was born in the Dominican Republic and came to this country
+          a couple years ago. I am proficient in both Spanish and English.
+          I am more of a stay home type of person. However,
+          I do go out with friends on occasions. We sometimes
+          head out to the movie theaters or restaurants to eat,
+          talk and have a good time. Afterall, socializing is
+          a big part of a healthy lifestyle.</p>
+      </div>
+  </div>
+
+<!--  Projects -->
+<div class="projectSection">
+  <h1 id="projects"> <i class="code icon"></i> Some of my <span>Projects</span></h1>
+  <br>
+
+<!--Zoologist project  -->
+  <div class="ui stackable two column grid">
+    <div class="eight column">
+      <div id="projectDiv">
+        <h2> Zoologist</h2>
+        <p id="projectp"> A simple web game where players guess the name of the animals
+             shown in a canvas. There are two modes. The easy mode has common animals and
+              the medium mode has some uncommon animals that users might not know. Once
+              all pictures are shown, a score is given out of the total number of animals
+               shown.
+        </p>
+        <a id="test" href="https://github.com/mejiae1994/Zoologist" class="ui basic big button">
+        <i class="github icon"></i> GitHub Repo </a>
+      </div>
+    </div>
+    <div class="eight column">
+        <div class="ui rounded fluid image">
+          <img id="zoo" class="imgBorder" src="zoologist.png">
+        </div>
+    </div>
+  </div>
+</div>
+
+<div class="projectSection">
+
+<!--IOS project  -->
+  <div class="ui stackable two column grid">
+    <div class="eight column">
+      <div id="projectDiv">
+        <h2> BrainTrainer</h2>
+        <p id="projectp"> IOS App created using xcode and swift. This was the final project of
+          my IOS class where we had to show what we had learned about the MVC pattern. It was
+          a group project and I worked on the model and controllers. </p>
+        <a href="https://github.com/mejiae1994/BrainTrainer" class="ui basic big button">
+        <i class="github icon"></i> GitHub Repo </a>
+      </div>
+    </div>
+    <div class="eight column">
+      <div class="ui rounded fluid image">
+        <img class="imgBorder" id="ios" src="ios1.png">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--  Tech section-->
+<div class="ui container">
+  <h1 id="tech"> <i class="archive icon"></i>Tech Experience</h1>
+
+<!-- tech content -->
+  <div class="ui stackable three column grid">
+    <div class="five column">
+      <div class="ui basic segment">
+        <img class="ui mini image moveCenter" src="html5.png">
+        <br>
+        <p> I have done some basic web app/web sites using HTML.</p>
+      </div>
+    </div>
+    <div class="five column">
+      <div class="ui basic segment">
+        <img class="ui mini image moveCenter" src="css3.png">
+        <br>
+        <p> Knowledge of basic CSS3.</p>
+      </div>
+    </div>
+    <div class="five column">
+      <div class="ui basic segment">
+        <img class="ui mini image moveCenter" src="js.png">
+        <br>
+        <p> I have done DOM manipulation and event handling with JavaScript.
+        </p>
+      </div>
+
+    </div>
+    <div class="five column">
+      <div class="ui basic segment">
+        <img class="ui tiny image moveCenter" src="node.png">
+        <br>
+        <p> I have used JavaScript for NodeJs to perform http requests
+        such as GET and POST.</p>
+      </div>
+    </div>
+
+    <div class="five column">
+      <div class="ui basic segment">
+        <img class="ui mini image moveCenter" src="java.png">
+        <br>
+        <p> My main language. It's the primary language I was taught in
+        college</p>
+      </div>
+    </div>
+
+    <div class="five column">
+      <div class="ui basic segment">
+        <img class="ui tiny image moveCenter" src="SQL.png">
+        <br>
+        <p> Experience with SQL to do CRUD actions.</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Footer Section -->
+</div>
+<footer>
+  <section class="myFooter">
+    <div id="mySegment" class="ui basic borderless segment">
+      <h4 id="footerH">Learn More</h4>
+      <div class="ui grid">
+        <div id="footerIcon" class="sixteen wide centerd aligned column">
+          <a href="https://github.com/mejiae1994"><i class="github icon" data-content="github link"></i></a>
+          <a href="https://www.linkedin.com/in/mejiae1994/"><i class="linkedin icon"></i></a>
+          <a href="EdisonMejia-Resume.docx"><i class="file alternate outline icon"></i></a>
+
+        </div>
+      </div>
+    </div>
+  </section>
+</footer>
+
+
+<% include partials/footer.ejs %>

@@ -1,0 +1,136 @@
+html, body {width:100%; overflow-x:hidden; -webkit-overflow-scrolling: touch;}
+
+/* Navbar */
+#navbar {
+  background-color: #06437A;
+  height: 70px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5em;
+}
+
+#navbar div, #navbar div a {
+  color: #DFE2DF;
+}
+
+#adressIcon {
+  font-size: 1.5em;
+}
+
+/* Modal */
+
+#contactP {
+  font-size: 1.2em;
+  padding: 5px;
+  color: 	#252628;
+  line-height: 1.5em;
+}
+
+/* ShowCase */
+.container.main {
+  margin-top: 12.0em;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5em;
+  width: 1.2em;
+}
+
+.container.main p {
+  font-size: 1.2em;
+  margin-top: 2px;
+  margin-bottom: 16px;
+  padding: 5px;
+  width: 80%;
+  color: 	#252628;
+  line-height: 1.5em;
+}
+
+.container.main h1, .container.main h2, .container.main h3 {
+  padding: 5px;
+  color: 	#06437A;
+}
+
+#meImg {
+  margin-left: 10%;
+}
+
+/* Projects */
+.projectSection {
+  margin-top: 200px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5em;
+}
+
+#projects {
+  text-align: center;
+  margin: 100px;
+  font-size: 2.5em;
+  font-weight: normal;
+}
+
+#projects span {
+  color: #860a0a;
+}
+
+
+/* fix button placement */
+
+
+
+/* Tech section */
+
+#tech {
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 100px;
+  font-size: 2.5em;
+  font-weight: normal;
+}
+
+/* Footer */
+.myFooter {
+  margin-top: 10%;
+  padding: 5px;
+  background: #EFECEC;
+  text-align: center;
+}
+
+#footerIcon {
+  padding-top: 1.2em;
+  height: 3em;
+  font-size: 2.5em;
+}
+
+footer {
+  width:100%; overflow-x:hidden;
+}
+
+#footerH {
+  margin: 0;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 767px) {
+  .container.main h1, h2, h3 {
+    text-align: center;
+  }
+  .container.main p {
+    width: 100%;
+  }
+  .moveCenter {
+    position: absolute;
+    left: 41%;
+  }
+  .ui.basic.segment p {
+    text-align: center;
+  }
+  .projectSection a {
+    position: relative;
+    left: 22%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .ui.main.container {
+    width: 60%;
+  }
+}

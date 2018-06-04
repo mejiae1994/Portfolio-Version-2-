@@ -1,0 +1,121 @@
+
+#navbar {
+  background-color: #06437A;
+  height: 70px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5em;
+}
+
+#navbar div {
+  color: #DFE2DF;
+}
+
+#navbar div a{
+  color: #DFE2DF;
+}
+
+#adressIcon {
+  font-size: 1.5em;
+}
+
+.projectSection {
+  margin-top: 300px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5em;
+}
+
+.projectSection h1, h2, h3 {
+  color: 	#06437A;
+  font-family: 'Roboto', sans-serif;
+}
+
+#projectDiv {
+  margin-top: 15%;
+  width: 90%;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5em;
+  font-size: 1.2em;
+}
+
+.container.main {
+  margin-top: 12.0em;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5em;
+}
+.container.main p {
+  font-size: 1.2em;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  width: 100%;
+  color: 	#252628;
+  line-height: 1.5em;
+}
+.container.main h1, h2, h3 {
+  color: 	#06437A;
+  font-family: 'Roboto', sans-serif;
+}
+
+.moveLeft {
+  margin-right: 50px;
+  border-radius: 10px;
+}
+
+#projects {
+  text-align: center;
+  margin: 100px;
+  font-size: 2.5em;
+  font-weight: normal;
+}
+
+#projects span {
+  color: #860a0a;
+}
+
+/* Give each image a radius */
+.imgBorder {
+  border-radius: 10px;
+}
+
+
+/* tech section */
+#tech {
+  margin-top: 10%;
+  font-family: 'Roboto', sans-serif;
+}
+.ui.segment {
+  text-align: center;
+}
+#tech p {
+  font-size: 1.2em;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  width: 50%;
+  color: 	#252628;
+  line-height: 1.5em;
+}
+
+#tech h1{
+  text-align: center;
+  margin: 100px;
+  font-size: 2.5em;
+  font-weight: normal;
+  padding: 10px;
+  color: 	#860a0a;
+  font-family: 'Roboto', sans-serif;
+}
+
+.archive.icon {
+  color: 	#06437A;
+}
+
+.myFooter {
+  margin-top: 10%;
+  padding: 5px;
+  background: #EFECEC;
+}
+
+#footerIcon {
+  padding-top: 1.2em;
+  height: 3em;
+  font-size: 2.5em;
+}
